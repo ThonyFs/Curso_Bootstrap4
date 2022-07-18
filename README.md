@@ -22,8 +22,22 @@ Curso Bootstrap4 - Udemy
 ## Mobile First
 
 * Responsive Breakpoint: <br>
-O CSS é focado por padrão na largura máxima de 576 pixels e o bootstrap se refere a esse tamanho com a sigla xs. <br>
+O CSS é focado por padrão na largura máxima de 576 pixels e o bootstrap se refere a esse tamanho com a sigla <strong>xs</strong>. <br>
 Acima desse tamanho temos a largura mínima de 576 pixels nomeada sm. <br>
 Após o tamanho sm temos a largura mínima de 768 pixels nomeada md. <br>
 Depois de sm temos a largura mínima de 992 pixels nomeada lg. <br>
 Por fim temos a largura mínima de 1200 pixels nomeada xl. <br>
+
+# Grid System
+
+* Foco inicial é para dispositivos moveis! 
+
+* grid padrão é 12 columns <br>
+Distribuidas por classe: .col-12 (informa quantas colunas) <br>
+< header class="col-12"> <br>
+
+* Para desempenhar o alinhamento das colunas, toda div deve estar dentro de um container: .container <br>
+* .row auxilia nos padding, todo row deve estar dentro de um container. <br>
+
+* Todo "conteiner" tem  ".row " e todo ".row" tem um ".col-..." 
+

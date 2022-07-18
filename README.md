@@ -18,3 +18,12 @@ Curso Bootstrap4 - Udemy
 .container { cria container adaptavel com margem centralizada. declarasse " .container " e VSCODE cria uma div com a classe instanciada } <br>
 
 .container-fluid { cria um container sem margem }
+
+## Mobile First
+
+* Responsive Breakpoint: <br>
+O CSS é focado por padrão na largura máxima de 576 pixels e o bootstrap se refere a esse tamanho com a sigla xs. <br>
+Acima desse tamanho temos a largura mínima de 576 pixels nomeada sm. <br>
+Após o tamanho sm temos a largura mínima de 768 pixels nomeada md. <br>
+Depois de sm temos a largura mínima de 992 pixels nomeada lg. <br>
+Por fim temos a largura mínima de 1200 pixels nomeada xl. <br>

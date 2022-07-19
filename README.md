@@ -80,6 +80,17 @@ classe: d-inline-flex { Cria um flex box inline, ocupando apenas o conteudo info
 
 <hr>
 
+## Flex-column: 
+ < div class="d-flex flex-column bg"> <br>
+< div class="bg p-2">1< /div> <br>
+< div class="bg p-2">2< /div> <br>
+< div class="bg p-2">3< /div> <br>
+< /div> <br>
+< div class="d-flex flex-column-reverse bg"> <br>
+< div class="bg p-2">1< /div> <br>
+< div class="bg p-2">2< /div> <br>
+< div class="bg p-2">3< /div> <br>
+< /div> <br>
 
 ## padrão de css para aplicar as regras implementadas diferentemente das ordem das classes 
 

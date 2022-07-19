@@ -65,6 +65,14 @@ implementando a classe offset, faz com que simule o espaço da grid declarada: <
 
 <hr>
 
+## flex-Box:
+Forma de aninhar elementos internos. <br>
+classe: d-flex { cria um flex box que ocupa a linha inteira} <br>
+classe: d-inline-flex { Cria um flex box inline, ocupando apenas o conteudo informado} <br>
+
+
+
+
 ## padrão de css para aplicar as regras implementadas diferentemente das ordem das classes 
 
 .row > .col, 

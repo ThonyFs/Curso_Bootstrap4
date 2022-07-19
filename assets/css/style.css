@@ -1,18 +1,9 @@
-body{
-    background-color: green;
-}
-
-header, footer{
-   margin: 2vh auto ;
-}
-
-header, nav, main, footer{
-    background-color: rgb(255, 255, 255);
-    min-height: 10vh;
-}
-
-nav, main{
-    min-height: 82vh;
+.row > .col,
+.row > [class^=col-], .bg{
+    padding-top: .75rem ;
+    padding-bottom: .75rem;
+    background-color: rgba(243, 117, 32, .15);
+    border: 1px solid rgba(243, 117, 32, .2);
 }
 
 /* Small devices (landscape phones, 576px and up)*/

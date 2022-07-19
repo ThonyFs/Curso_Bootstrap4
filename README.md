@@ -47,10 +47,27 @@ Distribuidas por classe: .col-12 (informa quantas colunas) <br>
 
 <hr> 
 
+## order: 
+impementando a classe order, ao alncançar o desejado ele ordena da forma declarada: <br>
+
+< div class="col col-md-3 order-sm-3">primeiro</ div>
+< div class="col col-md-3 order-sm-2">segundo</ div>
+< div class="col col-md-4 order-sm-1">terceiro</ div>
+
+<hr>
+
+## offset:
+implementando a classe offset, faz com que simule o espaço da grid declarada: <br>
+
+< div class="col-ms-4">A< /div>
+< div class="col-sm-4 offset-sm-4">C< /div>
+
+
+<hr>
+
 ## padrão de css para aplicar as regras implementadas diferentemente das ordem das classes 
 
 .row > .col, 
-.row > [class^=col-]{
-    
+.row > [class^=col-]{}
 
-}
+

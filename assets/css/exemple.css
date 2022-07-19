@@ -1,11 +1,28 @@
-.container{
-    padding: 2rem;
+header{
+    background-color: blue;
+    border:2px solid rgba(0, 0, 0, 0.603);
+    text-align: center;
+}
+header>h1{
+    display: inline-block;
+    width: 417px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orange;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.877);
+    text-align: center;
+    font-size: 4em;
 }
 
-.row > .col,
-.row > [class^=col-]{
-    padding-top: .75rem;
-    padding-bottom: .75rem ;
-    background-color: rgba(255, 102, 0, 0.219) ;
-    border: 1px solid rgba(253, 90, 8, 0.308);
+header>h1:hover{
+    color: rgb(248, 121, 74);
 }
+
+header>p{
+    text-align: right;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    margin-right: 40px;
+    text-shadow: 3px 3px 3px #000000b5;
+}
+

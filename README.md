@@ -45,3 +45,12 @@ Distribuidas por classe: .col-12 (informa quantas colunas) <br>
 
 * Todo "conteiner" tem  ".row " e todo ".row" tem um ".col-..." 
 
+<hr> 
+
+## padrão de css para aplicar as regras implementadas diferentemente das ordem das classes 
+
+.row > .col, 
+.row > [class^=col-]{
+    
+
+}

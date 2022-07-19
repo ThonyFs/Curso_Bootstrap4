@@ -70,7 +70,15 @@ Forma de aninhar elementos internos. <br>
 classe: d-flex { cria um flex box que ocupa a linha inteira} <br>
 classe: d-inline-flex { Cria um flex box inline, ocupando apenas o conteudo informado} <br>
 
+< div class="d-flex bg"> <br>
+< div class="bg p-2">1</ div> <br>
+< div class="bg p-2" p-2>2< /div> <br>
+< /div> <br>
+< div class="d-inline-flex bg"> <br>
+< div class="bg p-2">1</ div> <br>
+< div class="bg p-2">2</ div> <br>
 
+<hr>
 
 
 ## padrão de css para aplicar as regras implementadas diferentemente das ordem das classes 
